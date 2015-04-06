@@ -507,6 +507,8 @@ input.button.button-block {
   font-family: GloberThin;
   font-weight: 600;
   width: 95%;    position: relative;    left: 5px;    top: 40px;    font-size: 18px;    font-weight: 700;    border-radius: 0px;    font-family: GloberThin;
+  padding: 21px 12px 0px 0px;
+  line-height: 100%;
 }
 .button.button-assertive {
   border-color: #1ABC9C;
@@ -546,4 +548,15 @@ a.button .icon:before, a.button.icon-left:before, a.button.icon-right:before, a.
 .welocme-contents {
   margin-top: 15%;
   text-align: center;
+}
+.icon2d {
+  position: absolute;
+  zoom: 0.7;
+  margin-left: -20px;
+  margin-top: 3px;
+}
+.users-set {
+	background: url('../img/flaticons.png') no-repeat -755px -672px;
+	width: 45px;
+	height: 44px;
 }
