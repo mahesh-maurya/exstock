@@ -14,6 +14,9 @@ angular.module('starter.controllers', [])
 
 .controller('ProfileCtrl', function ($scope, $stateParams) {})
 
+//.controller('OtpCtrl', function ($scope, $stateParams) {})
+//.controller('OtperCtrl', function ($scope, $stateParams) {})
+
 .controller('DetailCtrl', function ($scope, $stateParams) {
     $scope.tab = 'profile';
     $scope.tabchange = function (tab) {
